@@ -1,0 +1,44 @@
+/* ── RCO Report Editor Styles ── */
+
+.rco-editor-canvas {
+  position: relative;
+  overflow: visible;
+}
+
+/* The server-rendered HTML embeds its own <style> block; to avoid polluting
+   the host page we rely on the styles being scoped inside .rco-editor-content.
+   The template's CSS already targets body/table/etc selectively. */
+
+.rco-editor-content {
+  /* Reset some properties so embedded report styles apply cleanly */
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #172033;
+}
+
+/* ── Edit-mode visual indicators ── */
+
+/* Editable section hover effect */
+.rco-editor-content [data-field-type="editable"]:focus {
+  outline: 2px solid #10b981 !important;
+  outline-offset: 2px;
+  background-color: #f0fdf4;
+}
+
+/* Editable table cell focus */
+.rco-editor-content [data-field-type="editable-table"] td:focus {
+  outline: 2px solid #f59e0b !important;
+  outline-offset: -1px;
+  background-color: #fffbeb;
+}
+
+/* Lock icon overlay for restricted sections */
+.rco-editor-content [data-field-type="restricted"]::before,
+.rco-editor-content [data-field-type="locked-table"]::before {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  font-size: 10px;
+  opacity: 0.5;
+}

@@ -1,0 +1,5 @@
+/* Clear all default Next.js styles so MUI CssBaseline can take over completely */
+body {
+  margin: 0;
+  padding: 0;
+}

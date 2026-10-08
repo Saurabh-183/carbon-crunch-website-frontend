@@ -1,0 +1,147 @@
+{
+    "facilities": {
+        "pageInfo": {
+            "name": "Facilities Management",
+            "purpose": "Manage organization facilities and their settings"
+        },
+        "faqs": [
+            {
+                "id": "add-facility",
+                "keywords": [
+                    "add",
+                    "new",
+                    "facility",
+                    "create"
+                ],
+                "question": "How do I add a new facility?",
+                "answer": "Click the 'Add Facility' button, enter the facility details including name, location, and reporting scopes, then save."
+            },
+            {
+                "id": "edit-facility",
+                "keywords": [
+                    "edit",
+                    "update",
+                    "facility details"
+                ],
+                "question": "How do I update facility information?",
+                "answer": "Open the facility record, edit the required fields, and save changes. Ensure facility metadata stays current for correct reporting and user assignment."
+            },
+            {
+                "id": "facility-scopes",
+                "keywords": [
+                    "scope mapping",
+                    "facility scope",
+                    "reporting scope"
+                ],
+                "question": "Why is facility scope configuration important?",
+                "answer": "Scope configuration controls which emission categories can be reported by that facility and ensures data appears in the correct dashboards and reports."
+            }
+        ]
+    },
+    "reports": {
+        "pageInfo": {
+            "name": "Reports",
+            "purpose": "View and generate emission reports"
+        },
+        "faqs": [
+            {
+                "id": "generate-report",
+                "keywords": [
+                    "report",
+                    "generate",
+                    "download",
+                    "export"
+                ],
+                "question": "How do I generate a report?",
+                "answer": "Select the time period and scopes you want to include, then click Generate Report. You can download it as PDF or Excel."
+            },
+            {
+                "id": "report-filters",
+                "keywords": [
+                    "filters",
+                    "period",
+                    "facility",
+                    "scope"
+                ],
+                "question": "Which filters should I use before generating reports?",
+                "answer": "Choose reporting period, facility or business unit, and required scopes. Applying the right filters ensures your output matches internal and external reporting needs."
+            },
+            {
+                "id": "report-audit",
+                "keywords": [
+                    "audit",
+                    "evidence",
+                    "supporting documents"
+                ],
+                "question": "Can I use reports for audits?",
+                "answer": "Yes. Reports can support audit preparation, especially when underlying entries have complete activity data, approval records, and source documents."
+            }
+        ]
+    },
+    "dashboard": {
+        "pageInfo": {
+            "name": "Organization Dashboard",
+            "purpose": "Overview of organization-wide emissions"
+        },
+        "faqs": [
+            {
+                "id": "org-dashboard-overview",
+                "keywords": [
+                    "overview",
+                    "dashboard",
+                    "organization summary"
+                ],
+                "question": "What does the Organization Dashboard show?",
+                "answer": "It shows consolidated emissions across facilities, scope-level performance, and trends to help track progress toward reduction goals."
+            },
+            {
+                "id": "org-dashboard-anomaly",
+                "keywords": [
+                    "spike",
+                    "increase",
+                    "anomaly"
+                ],
+                "question": "What should I do if I see a sudden emissions spike?",
+                "answer": "Drill into the affected period and facility, review recent entries and approvals, then verify units and source data for possible data quality issues or genuine operational changes."
+            }
+        ]
+    },
+    "users": {
+        "pageInfo": {
+            "name": "User Management",
+            "purpose": "Manage users, roles, and facility access"
+        },
+        "faqs": [
+            {
+                "id": "users-add",
+                "keywords": [
+                    "add user",
+                    "invite",
+                    "create account"
+                ],
+                "question": "How do I add a new user?",
+                "answer": "Go to Users, click Add User, enter user details, assign role and facility access, then send the invitation or create credentials as per your setup."
+            },
+            {
+                "id": "users-role",
+                "keywords": [
+                    "role",
+                    "permissions",
+                    "access"
+                ],
+                "question": "How do I assign or change user roles?",
+                "answer": "Open the user profile in Users, select the appropriate role, update facility mapping if needed, and save. Role changes affect what data and actions the user can access."
+            },
+            {
+                "id": "users-disable",
+                "keywords": [
+                    "disable",
+                    "deactivate",
+                    "remove user"
+                ],
+                "question": "How do I disable a user account?",
+                "answer": "Use the user management actions to deactivate the account instead of deleting it, so historical records and approval trails remain intact."
+            }
+        ]
+    }
+}

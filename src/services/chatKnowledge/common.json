@@ -1,0 +1,116 @@
+{
+    "navigation": {
+        "faqs": [
+            {
+                "id": "nav-dashboard",
+                "keywords": [
+                    "dashboard",
+                    "home",
+                    "go to"
+                ],
+                "question": "How do I navigate to the dashboard?",
+                "answer": "Click on the 'Dashboard' link in the sidebar menu to return to your main dashboard."
+            },
+            {
+                "id": "nav-settings",
+                "keywords": [
+                    "settings",
+                    "profile",
+                    "preferences"
+                ],
+                "question": "Where are the settings?",
+                "answer": "Click the Settings icon at the bottom of the sidebar to access your profile and preferences."
+            },
+            {
+                "id": "nav-search",
+                "keywords": [
+                    "search",
+                    "find",
+                    "lookup"
+                ],
+                "question": "How do I quickly find a page?",
+                "answer": "Use the sidebar menu and page labels to navigate quickly. If your organization has many modules, start from Dashboard and then move to the relevant section like Data Entry, Reports, or Approvals."
+            },
+            {
+                "id": "nav-back",
+                "keywords": [
+                    "back",
+                    "previous",
+                    "return"
+                ],
+                "question": "How do I return to the previous screen?",
+                "answer": "Use your browser back button for the previous screen, or use the sidebar to jump directly to any section without losing saved data."
+            }
+        ]
+    },
+    "general": {
+        "faqs": [
+            {
+                "id": "what-is-platform",
+                "keywords": [
+                    "what is",
+                    "carbonos",
+                    "platform"
+                ],
+                "question": "What is CarbonOS?",
+                "answer": "CarbonOS is a comprehensive GHG emissions management platform that helps organizations track, report, and reduce their carbon footprint across all three scopes."
+            },
+            {
+                "id": "get-help",
+                "keywords": [
+                    "help",
+                    "support",
+                    "contact"
+                ],
+                "question": "How do I get help?",
+                "answer": "You can contact support through the help button, or reach out to your organization administrator for assistance with platform-specific questions."
+            },
+            {
+                "id": "data-scopes-summary",
+                "keywords": [
+                    "scopes",
+                    "scope 1",
+                    "scope 2",
+                    "scope 3",
+                    "difference"
+                ],
+                "question": "What is the difference between Scope 1, 2, and 3?",
+                "answer": "Scope 1 is direct emissions from owned or controlled sources. Scope 2 is indirect emissions from purchased energy. Scope 3 includes other indirect value-chain emissions such as purchased goods, travel, waste, and logistics."
+            },
+            {
+                "id": "entry-status",
+                "keywords": [
+                    "status",
+                    "pending",
+                    "approved",
+                    "rejected"
+                ],
+                "question": "What do entry statuses mean?",
+                "answer": "Pending means submitted and waiting for review. Approved means accepted and included in reporting. Rejected means changes are required before the entry can be approved."
+            },
+            {
+                "id": "units-help",
+                "keywords": [
+                    "unit",
+                    "units",
+                    "kg",
+                    "liters",
+                    "kwh"
+                ],
+                "question": "How do I choose the correct unit for activity data?",
+                "answer": "Select the unit that matches your source document (for example liters, kWh, km, kg). Using the correct unit is important because the emission factor and final calculation depend on it."
+            },
+            {
+                "id": "calculation-explainer",
+                "keywords": [
+                    "calculate",
+                    "calculation",
+                    "formula",
+                    "emissions"
+                ],
+                "question": "How are emissions calculated in the platform?",
+                "answer": "Emissions are generally calculated as: Activity Data x Emission Factor x any applicable conversion factor. The platform applies configured factors and stores the final CO2e result."
+            }
+        ]
+    }
+}

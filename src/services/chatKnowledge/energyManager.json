@@ -1,0 +1,218 @@
+{
+  "data_entry_scope1": {
+    "pageInfo": {
+      "name": "Data Entry - Scope 1",
+      "purpose": "Enter direct emissions from sources owned or controlled by the organization"
+    },
+    "faqs": [
+      {
+        "id": "scope1-what",
+        "keywords": ["what is", "scope 1", "scope1"],
+        "question": "What is Scope 1?",
+        "answer": "Scope 1 includes direct GHG emissions from sources owned or controlled by your organization, such as:\n- Stationary combustion (boilers, furnaces)\n- Mobile combustion (company vehicles)\n- Process emissions (manufacturing)\n- Fugitive emissions (refrigerant leaks)"
+      },
+      {
+        "id": "add-entry",
+        "keywords": ["add", "enter", "new", "create", "how to add"],
+        "question": "How do I add a new entry?",
+        "answer": "Click the 'New Entry' button on the right side, select your emission source category, fill in the activity data and units, then click Submit. Your entry will be sent for approval."
+      },
+      {
+        "id": "scope1-required-fields",
+        "keywords": ["required", "mandatory", "fields", "what to fill"],
+        "question": "What fields are required in a Scope 1 entry?",
+        "answer": "Typically you need facility, date or period, source category, activity data value, unit, and supporting remarks or files if required by your workflow."
+      },
+      {
+        "id": "scope1-save-draft",
+        "keywords": ["draft", "save", "later", "incomplete"],
+        "question": "Can I save Scope 1 data and submit later?",
+        "answer": "If draft mode is available in your workflow, save the entry as draft and complete validation before final submission. If draft is not shown, complete all required fields and submit directly."
+      }
+    ]
+  },
+  "data_entry_scope2": {
+    "pageInfo": {
+      "name": "Data Entry - Scope 2",
+      "purpose": "Enter indirect emissions from purchased electricity, steam, heating, and cooling"
+    },
+    "faqs": [
+      {
+        "id": "scope2-what",
+        "keywords": ["what is", "scope 2", "scope2"],
+        "question": "What is Scope 2?",
+        "answer": "Scope 2 covers indirect emissions from purchased electricity, steam, heating, and cooling consumed by your organization."
+      },
+      {
+        "id": "scope2-market-location",
+        "keywords": ["market based", "location based", "electricity factors"],
+        "question": "What is the difference between market-based and location-based Scope 2?",
+        "answer": "Location-based uses grid-average emission factors for your region, while market-based reflects supplier-specific contracts or certificates where applicable."
+      },
+      {
+        "id": "scope2-bill-data",
+        "keywords": ["bill", "invoice", "kwh", "meter"],
+        "question": "What data should I take from an electricity bill?",
+        "answer": "Capture the billing period, total energy consumed (usually kWh), and facility details. These are used to calculate Scope 2 emissions with configured factors."
+      },
+      {
+        "id": "scope2-net-metering-fields",
+        "keywords": ["net metering", "import", "export", "renewable purchased"],
+        "question": "What should I enter in the Net Metering section?",
+        "answer": "Enter date, type, connection type, total units, unit, method, and optionally carbon content and data status. Also provide generation, self-consumption, export to grid, import from grid, net metering type, and renewable purchased values when available."
+      },
+      {
+        "id": "scope2-net-metering-formula",
+        "keywords": ["formula", "one to one", "net billing", "gross metering"],
+        "question": "How are emissions handled for different net metering types?",
+        "answer": "The platform applies formula-based handling using grid EF: Grid Only uses Import x EF, One-to-One uses max(0, Import - Export) x EF, Net Billing and Gross Metering use Import x EF, and Renewable Purchases use (Import - Renewable Purchased) x EF."
+      }
+    ]
+  },
+
+ "data_entry_scope3": {
+    "pageInfo": {
+      "name": "Data Entry - Scope 3",
+      "purpose": "Enter other indirect emissions not covered in Scope 2"
+    },
+    "faqs": [
+      {
+        "id": "scope3-what",
+        "keywords": ["what is", "scope 3", "scope3"],
+        "question": "What is Scope 3?",
+        "answer": "Scope 3 includes other indirect emissions not covered in Scope 2, such as business travel, waste disposal, and purchased goods and services."
+      },
+      {
+        "id": "scope3-categories",
+        "keywords": ["categories", "upstream", "downstream", "classification"],
+        "question": "How do I choose the right Scope 3 category?",
+        "answer": "Select the category based on the emission source in your value chain. Upstream covers purchased inputs and inbound activities, while downstream covers distribution, product use, and end-of-life related impacts."
+      }
+    ]
+  },
+
+  "data_entry_scope3_upstream": {
+    "pageInfo": {
+      "name": "Data Entry - Scope 3 Upstream",
+      "purpose": "Enter upstream value-chain emissions"
+    },
+    "faqs": [
+      {
+        "id": "scope3-upstream-examples",
+        "keywords": ["upstream", "examples", "purchased goods", "transport"],
+        "question": "What are common upstream Scope 3 examples?",
+        "answer": "Common upstream categories include purchased goods and services, capital goods, fuel and energy related activities, upstream transportation and distribution, waste generated in operations, and business travel."
+      }
+    ]
+  },
+
+  "data_entry_scope3_downstream": {
+    "pageInfo": {
+      "name": "Data Entry - Scope 3 Downstream",
+      "purpose": "Enter downstream value-chain emissions"
+    },
+    "faqs": [
+      {
+        "id": "scope3-downstream-examples",
+        "keywords": ["downstream", "examples", "distribution", "end of life"],
+        "question": "What are common downstream Scope 3 examples?",
+        "answer": "Common downstream categories include downstream transportation and distribution, processing of sold products, use of sold products, end-of-life treatment, leased assets, franchises, and investments where applicable."
+      }
+    ]
+  },
+
+  "bulk_import": {
+    "pageInfo": {
+      "name": "Bulk Import",
+      "purpose": "Upload multiple emission entries at once"
+    },
+    "faqs": [
+      {
+        "id": "bulk-how",
+        "keywords": ["bulk", "import", "upload", "excel", "csv"],
+        "question": "How do I use bulk import?",
+        "answer": "Download the template file, fill in your data, then upload it. The system will validate your entries and import them all at once."
+      },
+      {
+        "id": "bulk-errors",
+        "keywords": ["error", "failed rows", "validation", "fix import"],
+        "question": "What should I do if bulk import validation fails?",
+        "answer": "Review the error report, fix invalid values (such as date format, missing fields, or wrong units), and re-upload the corrected file."
+      },
+      {
+        "id": "bulk-template",
+        "keywords": ["template", "sample file", "format"],
+        "question": "Why should I use the provided template?",
+        "answer": "The template ensures column names, order, and formats match system rules, which reduces import errors and speeds up validation."
+      }
+    ]
+  },
+  "ai_ocr": {
+    "pageInfo": {
+      "name": "AI-OCR",
+      "purpose": "Extract emission data from documents using AI"
+    },
+    "faqs": [
+      {
+        "id": "ocr-what",
+        "keywords": ["ocr", "ai", "extract", "document"],
+        "question": "What is AI-OCR?",
+        "answer": "AI-OCR automatically extracts emission data from your invoices and documents using artificial intelligence, saving you manual data entry time."
+      },
+      {
+        "id": "ocr-supported-files",
+        "keywords": ["pdf", "image", "supported", "file type"],
+        "question": "Which files work best with AI-OCR?",
+        "answer": "Clear PDF invoices and high-resolution images work best. Blurry scans, rotated pages, or handwritten values may reduce extraction accuracy."
+      },
+      {
+        "id": "ocr-review",
+        "keywords": ["verify", "review", "edit extracted"],
+        "question": "Do I need to review AI-OCR extracted data?",
+        "answer": "Yes. Always verify extracted fields before submission, especially activity value, unit, date, and supplier details."
+      }
+    ]
+  },
+
+  "rejected_entries": {
+    "pageInfo": {
+      "name": "Rejected Entries",
+      "purpose": "Review rejected submissions and resubmit corrected entries"
+    },
+    "faqs": [
+      {
+        "id": "rejected-why",
+        "keywords": ["rejected", "why rejected", "reason"],
+        "question": "Why was my entry rejected?",
+        "answer": "Entries are usually rejected due to missing fields, incorrect units, mismatched source category, or insufficient supporting evidence. Check rejection comments for exact guidance."
+      },
+      {
+        "id": "rejected-resubmit",
+        "keywords": ["resubmit", "edit rejected", "submit again"],
+        "question": "How do I resubmit a rejected entry?",
+        "answer": "Open the rejected record, update the highlighted fields based on reviewer comments, attach corrected documents if needed, and submit again for approval."
+      }
+    ]
+  },
+
+  "dashboard": {
+    "pageInfo": {
+      "name": "Energy Manager Dashboard",
+      "purpose": "Track submission progress, approvals, and emission trends"
+    },
+    "faqs": [
+      {
+        "id": "dashboard-widgets",
+        "keywords": ["dashboard", "widgets", "cards", "summary"],
+        "question": "What does the Energy Manager dashboard show?",
+        "answer": "It provides a summary of submitted entries, pending approvals, rejected items needing action, and high-level emission trends for your assigned facilities."
+      },
+      {
+        "id": "dashboard-refresh",
+        "keywords": ["refresh", "latest", "updated"],
+        "question": "How do I see the latest dashboard data?",
+        "answer": "Refresh the page after new submissions or approvals. Some widgets also update automatically based on your session and selected period."
+      }
+    ]
+  }
+}

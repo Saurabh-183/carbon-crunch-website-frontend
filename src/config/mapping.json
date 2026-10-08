@@ -1,0 +1,69 @@
+{
+  "dateColumns": ["month", "date", "period", "month/year", "month-year"],
+  "consumptionColumns": {
+    "scope1": [
+      "fuel",
+      "diesel",
+      "coal",
+      "consumption",
+      "coal consumption",
+      "diesel consumption",
+      "fuel consumed",
+      "coal consumption (mt)",
+      "consume quantity",
+      "consumed quantity",
+      "consume qty",
+      "consumption qty",
+      "consumption quantity",
+      "thermopack"
+    ],
+    "scope2": ["electric", "electricity", "kwh", "power consumption", "heat", "steam", "energy", "active energy", "consumed units", "consumption quantity"],
+    "scope3": ["quantity", "amount", "volume", "activity data", "consumption", "usage", "value"]
+  },
+  "unitHints": {
+    "kwh": ["kwh", "kw h", "kwhr", "kilowatt hour"],
+    "mt": ["mt", "ton", "tonne", "t"],
+    "kg": ["kg", "kilogram"],
+    "ltr": ["ltr", "liter", "litre"],
+    "m3": ["m3", "m^3", "cubic meter", "cubic metre"]
+  },
+  "scopeKeywords": {
+    "scope1": ["coal", "diesel", "dg", "fuel"],
+    "scope2": ["electric", "electricity", "steam", "heat", "power"],
+    "scope3": ["scope 3", "scope3", "upstream", "downstream", "scope iii"]
+  },
+  "sourceKeywords": {
+    "coal": ["coal"],
+    "diesel": ["diesel", "dg", "d.g", "generator"],
+    "electricity": ["electric", "power", "kwh"],
+    "steam": ["steam"],
+    "heat": ["heat"],
+    "fuel": ["fuel"],
+    "grass/straw": ["bagasse", "baggase"]
+  },
+  "fields": {
+    "date": ["date", "month", "period", "month/year", "month-year"],
+    "consumption": ["consumption", "usage", "used", "fuel", "diesel", "coal", "electric", "kwh", "steam", "heat", "consume quantity", "consumed quantity"],
+    "source": ["source", "fuel type", "fuel", "fuel name", "energy source"],
+    "unit": ["unit", "uom", "unit of measure", "units"],
+    "measurementMethod": ["method", "measurement method", "supporting method"],
+    "activityType": ["activity type", "activity"],
+    "activityGroup": ["group", "activity group"],
+    "activityCategory": ["category", "activity category"]
+  },
+  "excludedConsumptionTerms": [
+    "total",
+    "opening",
+    "closing",
+    "balance",
+    "received",
+    "gross",
+    "net",
+    "stock",
+    "opening balance",
+    "closing balance",
+    "total quantity",
+    "balance quantity",
+    "received quantity"
+  ]
+}

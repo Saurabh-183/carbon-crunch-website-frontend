@@ -1,0 +1,96 @@
+{
+    "pending_approvals": {
+        "pageInfo": {
+            "name": "Pending Approvals",
+            "purpose": "Review and approve emission entries submitted by Energy Managers"
+        },
+        "faqs": [
+            {
+                "id": "approve-entry",
+                "keywords": [
+                    "approve",
+                    "accept",
+                    "review"
+                ],
+                "question": "How do I approve an entry?",
+                "answer": "Review the entry details, verify the data is accurate, then click the Approve button. You can also reject entries that need corrections."
+            },
+            {
+                "id": "reject-entry",
+                "keywords": [
+                    "reject",
+                    "send back",
+                    "changes required"
+                ],
+                "question": "When should I reject an entry?",
+                "answer": "Reject entries when required fields are missing, units are incorrect, source category is mismatched, or evidence is insufficient. Add clear comments so the submitter can correct and resubmit quickly."
+            },
+            {
+                "id": "approval-priority",
+                "keywords": [
+                    "priority",
+                    "which to review first",
+                    "urgent"
+                ],
+                "question": "How should I prioritize approvals?",
+                "answer": "Prioritize entries with close reporting deadlines, large emission impact, or repeated rejection history to reduce reporting delays and data quality issues."
+            }
+        ]
+    },
+    "approved_entries": {
+        "pageInfo": {
+            "name": "Approved Entries",
+            "purpose": "View and track approved emission records"
+        },
+        "faqs": [
+            {
+                "id": "approved-view",
+                "keywords": [
+                    "approved",
+                    "view approved",
+                    "history"
+                ],
+                "question": "Where can I see approved entries?",
+                "answer": "Open the Approved Entries page to view records that have completed review and are included in reporting outputs."
+            },
+            {
+                "id": "approved-edit",
+                "keywords": [
+                    "edit approved",
+                    "change approved entry",
+                    "correction"
+                ],
+                "question": "Can approved entries be changed?",
+                "answer": "Approved records are usually controlled to protect audit trails. If correction is needed, follow your workflow for amendment or resubmission with reviewer approval."
+            }
+        ]
+    },
+    "dashboard": {
+        "pageInfo": {
+            "name": "Plant Admin Dashboard",
+            "purpose": "Overview of facility emissions and pending tasks"
+        },
+        "faqs": [
+            {
+                "id": "plant-dashboard-overview",
+                "keywords": [
+                    "dashboard",
+                    "overview",
+                    "plant summary"
+                ],
+                "question": "What is shown on the Plant Admin dashboard?",
+                "answer": "It highlights pending approvals, recent submissions, facility-level emission summaries, and task indicators for review actions."
+            },
+            {
+                "id": "plant-dashboard-delay",
+                "keywords": [
+                    "delay",
+                    "pending too long",
+                    "backlog"
+                ],
+                "question": "How can I reduce approval backlog?",
+                "answer": "Review by deadline and emission impact, reject with specific comments when needed, and coordinate with Energy Managers on common validation issues to improve first-time approval rates."
+            }
+        ]
+    }
+}

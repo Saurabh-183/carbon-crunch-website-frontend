@@ -1,0 +1,909 @@
+{
+  "scope": "Scope 1",
+  "Stationary Combustion": {
+    "Fuels": {
+      "label": "Fuels",
+      "categories": {
+        "Solid Fuels": {
+          "Bituminous Coal": {
+            "tonne": {
+              "emissionFactor": 2330,
+              "unit": "kgCO2e/tonne"
+            },
+            "kg": {
+              "emissionFactor": 2.33,
+              "unit": "kgCO2e/kg"
+            },
+            "MT": {
+              "emissionFactor": 2330,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.00233,
+              "unit": "kgCO2e/gram"
+            }
+          },
+          "Sub-bituminous Coal": {
+            "tonne": {
+              "emissionFactor": 2150,
+              "unit": "kgCO2e/tonne"
+            },
+            "kg": {
+              "emissionFactor": 2.15,
+              "unit": "kgCO2e/kg"
+            },
+            "MT": {
+              "emissionFactor": 2150,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.00215,
+              "unit": "kgCO2e/gram"
+            }
+          },
+          "Lignite": {
+            "tonne": {
+              "emissionFactor": 1600,
+              "unit": "kgCO2e/tonne"
+            },
+            "kg": {
+              "emissionFactor": 1.6,
+              "unit": "kgCO2e/kg"
+            },
+            "MT": {
+              "emissionFactor": 1600,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.0016,
+              "unit": "kgCO2e/gram"
+            }
+          },
+          "Coke Oven Coke": {
+            "tonne": {
+              "emissionFactor": 2950,
+              "unit": "kgCO2e/tonne"
+            },
+            "kg": {
+              "emissionFactor": 2.95,
+              "unit": "kgCO2e/kg"
+            },
+            "MT": {
+              "emissionFactor": 2950,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.00295,
+              "unit": "kgCO2e/gram"
+            }
+          },
+          "Petroleum Coke": {
+            "tonne": {
+              "emissionFactor": 3100,
+              "unit": "kgCO2e/tonne"
+            },
+            "kg": {
+              "emissionFactor": 3.1,
+              "unit": "kgCO2e/kg"
+            },
+            "MT": {
+              "emissionFactor": 3100,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.0031,
+              "unit": "kgCO2e/gram"
+            },
+            "MMBTU": {
+              "emissionFactor": 97.5,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Diesel": {
+            "litre": {
+              "emissionFactor": 2.68,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 2680,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 10.144898800000002,
+              "unit": "kgCO2e/Gallons"
+            },
+            "MMBTU": {
+              "emissionFactor": 74.1,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Furnace Oil": {
+            "litre": {
+              "emissionFactor": 3.12,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 3120,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 11.810479200000001,
+              "unit": "kgCO2e/Gallons"
+            },
+            "MMBTU": {
+              "emissionFactor": 77.4,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Kerosene": {
+            "litre": {
+              "emissionFactor": 2.41,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 2410,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 9.122838100000001,
+              "unit": "kgCO2e/Gallons"
+            },
+            "MMBTU": {
+              "emissionFactor": 71.9,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Naphtha": {
+            "litre": {
+              "emissionFactor": 2.45,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 2450,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 9.274254500000001,
+              "unit": "kgCO2e/Gallons"
+            },
+            "MMBTU": {
+              "emissionFactor": 73.3,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Natural Gas": {
+            "m3": {
+              "emissionFactor": 2.13,
+              "unit": "kgCO2e/m3"
+            },
+            "m³": {
+              "emissionFactor": 2.13,
+              "unit": "kgCO2e/m³"
+            },
+            "SCM": {
+              "emissionFactor": 2.13,
+              "unit": "kgCO2e/SCM"
+            },
+            "MMBTU": {
+              "emissionFactor": 53.06,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Refinery Gas": {
+            "m3": {
+              "emissionFactor": 2.9,
+              "unit": "kgCO2e/m3"
+            },
+            "SCM": {
+              "emissionFactor": 2.9,
+              "unit": "kgCO2e/SCM"
+            },
+            "m³": {
+              "emissionFactor": 2.9,
+              "unit": "kgCO2e/m³"
+            }
+          },
+          "LPG": {
+            "kg": {
+              "emissionFactor": 2.91,
+              "unit": "kgCO2e/kg"
+            },
+            "litre": {
+              "emissionFactor": 1.5714000000000001,
+              "unit": "kgCO2e/litre"
+            },
+            "tonne": {
+              "emissionFactor": 2910,
+              "unit": "kgCO2e/tonne"
+            },
+            "MT": {
+              "emissionFactor": 2910,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.0029100000000000003,
+              "unit": "kgCO2e/gram"
+            },
+            "kL": {
+              "emissionFactor": 1571.4,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 5.948393274000001,
+              "unit": "kgCO2e/Gallons"
+            },
+            "MMBTU": {
+              "emissionFactor": 63.1,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Firewood": {
+            "tonne": {
+              "emissionFactor": 112,
+              "unit": "kgCO2e/tonne"
+            },
+            "kg": {
+              "emissionFactor": 0.112,
+              "unit": "kgCO2e/kg"
+            },
+            "MT": {
+              "emissionFactor": 112,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.000112,
+              "unit": "kgCO2e/gram"
+            }
+          },
+          "Crop Residues": {
+            "tonne": {
+              "emissionFactor": 95,
+              "unit": "kgCO2e/tonne"
+            },
+            "kg": {
+              "emissionFactor": 0.095,
+              "unit": "kgCO2e/kg"
+            },
+            "MT": {
+              "emissionFactor": 95,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.000095,
+              "unit": "kgCO2e/gram"
+            }
+          },
+          "Bagasse": {
+            "tonne": {
+              "emissionFactor": 85,
+              "unit": "kgCO2e/tonne"
+            },
+            "kg": {
+              "emissionFactor": 0.085,
+              "unit": "kgCO2e/kg"
+            },
+            "MT": {
+              "emissionFactor": 85,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.000085,
+              "unit": "kgCO2e/gram"
+            },
+            "MMBTU": {
+              "emissionFactor": 93.8,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Coal": {
+            "kg": {
+              "emissionFactor": 2.33,
+              "unit": "kgCO2e/kg"
+            },
+            "tonne": {
+              "emissionFactor": 2330,
+              "unit": "kgCO2e/tonne"
+            },
+            "MT": {
+              "emissionFactor": 2330,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.00233,
+              "unit": "kgCO2e/gram"
+            },
+            "MMBTU": {
+              "emissionFactor": 95.52,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Imported Coal": {
+            "kg": {
+              "emissionFactor": 2.33,
+              "unit": "kgCO2e/kg"
+            },
+            "tonne": {
+              "emissionFactor": 2330,
+              "unit": "kgCO2e/tonne"
+            },
+            "MT": {
+              "emissionFactor": 2330,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.00233,
+              "unit": "kgCO2e/gram"
+            },
+            "MMBTU": {
+              "emissionFactor": 95.52,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Indian Coal": {
+            "kg": {
+              "emissionFactor": 2.33,
+              "unit": "kgCO2e/kg"
+            },
+            "tonne": {
+              "emissionFactor": 2330,
+              "unit": "kgCO2e/tonne"
+            },
+            "MT": {
+              "emissionFactor": 2330,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.00233,
+              "unit": "kgCO2e/gram"
+            },
+            "MMBTU": {
+              "emissionFactor": 95.52,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Wood Chips": {
+            "kg": {
+              "emissionFactor": 0.112,
+              "unit": "kgCO2e/kg"
+            },
+            "tonne": {
+              "emissionFactor": 112,
+              "unit": "kgCO2e/tonne"
+            },
+            "MT": {
+              "emissionFactor": 112,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.000112,
+              "unit": "kgCO2e/gram"
+            }
+          },
+          "Wood": {
+            "kg": {
+              "emissionFactor": 0.112,
+              "unit": "kgCO2e/kg"
+            },
+            "tonne": {
+              "emissionFactor": 112,
+              "unit": "kgCO2e/tonne"
+            },
+            "MT": {
+              "emissionFactor": 112,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.000112,
+              "unit": "kgCO2e/gram"
+            },
+            "MMBTU": {
+              "emissionFactor": 93.8,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Rice Husk": {
+            "kg": {
+              "emissionFactor": 0.095,
+              "unit": "kgCO2e/kg"
+            },
+            "tonne": {
+              "emissionFactor": 95,
+              "unit": "kgCO2e/tonne"
+            },
+            "MT": {
+              "emissionFactor": 95,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.00009499999999999999,
+              "unit": "kgCO2e/gram"
+            }
+          },
+          "NRSW": {
+            "kg": {
+              "emissionFactor": 0.095,
+              "unit": "kgCO2e/kg"
+            },
+            "tonne": {
+              "emissionFactor": 95,
+              "unit": "kgCO2e/tonne"
+            },
+            "MT": {
+              "emissionFactor": 95,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.00009499999999999999,
+              "unit": "kgCO2e/gram"
+            }
+          },
+          "Biological Sludge": {
+            "kg": {
+              "emissionFactor": 0.095,
+              "unit": "kgCO2e/kg"
+            },
+            "tonne": {
+              "emissionFactor": 95,
+              "unit": "kgCO2e/tonne"
+            },
+            "MT": {
+              "emissionFactor": 95,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.00009499999999999999,
+              "unit": "kgCO2e/gram"
+            }
+          },
+          "De-inking Sludge": {
+            "kg": {
+              "emissionFactor": 0.095,
+              "unit": "kgCO2e/kg"
+            },
+            "tonne": {
+              "emissionFactor": 95,
+              "unit": "kgCO2e/tonne"
+            },
+            "MT": {
+              "emissionFactor": 95,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.00009499999999999999,
+              "unit": "kgCO2e/gram"
+            }
+          },
+          "Agricultural Waste": {
+            "kg": {
+              "emissionFactor": 0.095,
+              "unit": "kgCO2e/kg"
+            },
+            "tonne": {
+              "emissionFactor": 95,
+              "unit": "kgCO2e/tonne"
+            },
+            "MT": {
+              "emissionFactor": 95,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.00009499999999999999,
+              "unit": "kgCO2e/gram"
+            }
+          },
+          "Straw": {
+            "kg": {
+              "emissionFactor": 0.095,
+              "unit": "kgCO2e/kg"
+            },
+            "tonne": {
+              "emissionFactor": 95,
+              "unit": "kgCO2e/tonne"
+            },
+            "MT": {
+              "emissionFactor": 95,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.00009499999999999999,
+              "unit": "kgCO2e/gram"
+            }
+          },
+          "HSD": {
+            "litre": {
+              "emissionFactor": 2.68,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 2680,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 10.144898800000002,
+              "unit": "kgCO2e/Gallons"
+            },
+            "MMBTU": {
+              "emissionFactor": 74.1,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "High Speed Diesel": {
+            "litre": {
+              "emissionFactor": 2.68,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 2680,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 10.144898800000002,
+              "unit": "kgCO2e/Gallons"
+            },
+            "MMBTU": {
+              "emissionFactor": 74.1,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Diesel Oil": {
+            "litre": {
+              "emissionFactor": 2.68,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 2680,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 10.144898800000002,
+              "unit": "kgCO2e/Gallons"
+            }
+          },
+          "LSHS": {
+            "litre": {
+              "emissionFactor": 2.68,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 2680,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 10.144898800000002,
+              "unit": "kgCO2e/Gallons"
+            },
+            "MMBTU": {
+              "emissionFactor": 77.4,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "FO": {
+            "litre": {
+              "emissionFactor": 3.12,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 3120,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 11.810479200000001,
+              "unit": "kgCO2e/Gallons"
+            },
+            "MMBTU": {
+              "emissionFactor": 77.4,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Heavy Fuel Oil": {
+            "litre": {
+              "emissionFactor": 3.12,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 3120,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 11.810479200000001,
+              "unit": "kgCO2e/Gallons"
+            },
+            "MMBTU": {
+              "emissionFactor": 77.4,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "HFO": {
+            "litre": {
+              "emissionFactor": 3.12,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 3120,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 11.810479200000001,
+              "unit": "kgCO2e/Gallons"
+            }
+          },
+          "Residual Fuel Oil": {
+            "litre": {
+              "emissionFactor": 3.12,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 3120,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 11.810479200000001,
+              "unit": "kgCO2e/Gallons"
+            }
+          },
+          "PNG": {
+            "m3": {
+              "emissionFactor": 2.13,
+              "unit": "kgCO2e/m3"
+            },
+            "SCM": {
+              "emissionFactor": 2.13,
+              "unit": "kgCO2e/SCM"
+            },
+            "m³": {
+              "emissionFactor": 2.13,
+              "unit": "kgCO2e/m³"
+            },
+            "MMBTU": {
+              "emissionFactor": 53.06,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Piped Natural Gas": {
+            "m3": {
+              "emissionFactor": 2.13,
+              "unit": "kgCO2e/m3"
+            },
+            "SCM": {
+              "emissionFactor": 2.13,
+              "unit": "kgCO2e/SCM"
+            },
+            "m³": {
+              "emissionFactor": 2.13,
+              "unit": "kgCO2e/m³"
+            },
+            "MMBTU": {
+              "emissionFactor": 53.06,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Liquefied Petroleum Gas": {
+            "kg": {
+              "emissionFactor": 2.91,
+              "unit": "kgCO2e/kg"
+            },
+            "tonne": {
+              "emissionFactor": 2910,
+              "unit": "kgCO2e/tonne"
+            },
+            "MT": {
+              "emissionFactor": 2910,
+              "unit": "kgCO2e/MT"
+            },
+            "gram": {
+              "emissionFactor": 0.0029100000000000003,
+              "unit": "kgCO2e/gram"
+            }
+          },
+          "SKO": {
+            "litre": {
+              "emissionFactor": 2.41,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 2410,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 9.122838100000001,
+              "unit": "kgCO2e/Gallons"
+            },
+            "MMBTU": {
+              "emissionFactor": 71.9,
+              "unit": "kgCO2e/MMBTU"
+            }
+          },
+          "Superior Kerosene Oil": {
+            "litre": {
+              "emissionFactor": 2.41,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 2410,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 9.122838100000001,
+              "unit": "kgCO2e/Gallons"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Mobile Combustion": {
+    "Fuels": {
+      "label": "Fuels",
+      "categories": {
+        "Liquid Fuels": {
+          "Petrol": {
+            "litre": {
+              "emissionFactor": 2.31,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 2310,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 8.7442971,
+              "unit": "kgCO2e/Gallons"
+            }
+          },
+          "Aviation Turbine Fuel": {
+            "litre": {
+              "emissionFactor": 2.46,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 2460,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 9.3121086,
+              "unit": "kgCO2e/Gallons"
+            }
+          },
+          "Aviation Gasoline": {
+            "litre": {
+              "emissionFactor": 2.28,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 2280,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 8.630734799999999,
+              "unit": "kgCO2e/Gallons"
+            }
+          },
+          "Marine Fuel Oil": {
+            "litre": {
+              "emissionFactor": 3.15,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 3150,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 11.9240415,
+              "unit": "kgCO2e/Gallons"
+            }
+          },
+          "CNG": {
+            "m3": {
+              "emissionFactor": 2.13,
+              "unit": "kgCO2e/m3"
+            },
+            "SCM": {
+              "emissionFactor": 2.13,
+              "unit": "kgCO2e/SCM"
+            },
+            "m³": {
+              "emissionFactor": 2.13,
+              "unit": "kgCO2e/m³"
+            }
+          },
+          "Gasoline": {
+            "litre": {
+              "emissionFactor": 2.31,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 2310,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 8.7442971,
+              "unit": "kgCO2e/Gallons"
+            }
+          },
+          "MS": {
+            "litre": {
+              "emissionFactor": 2.31,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 2310,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 8.7442971,
+              "unit": "kgCO2e/Gallons"
+            }
+          },
+          "Motor Spirit": {
+            "litre": {
+              "emissionFactor": 2.31,
+              "unit": "kgCO2e/litre"
+            },
+            "kL": {
+              "emissionFactor": 2310,
+              "unit": "kgCO2e/kL"
+            },
+            "Gallons": {
+              "emissionFactor": 8.7442971,
+              "unit": "kgCO2e/Gallons"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Fugitive Emissions": {
+    "Fugitive": {
+      "label": "Fugitive",
+      "categories": {
+        "Fugitive": {
+          "Underground Coal Mining": {
+            "tonne coal": {
+              "emissionFactor": 179,
+              "unit": "kgCO2e/tonne coal"
+            }
+          },
+          "Surface Coal Mining": {
+            "tonne coal": {
+              "emissionFactor": 21.5,
+              "unit": "kgCO2e/tonne coal"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Process Emissions": {
+    "Process": {
+      "label": "Process",
+      "categories": {
+        "Process": {
+          "Clinker Production": {
+            "tonne clinker": {
+              "emissionFactor": 520,
+              "unit": "kgCO2e/tonne clinker"
+            }
+          },
+          "Lime Production": {
+            "tonne lime": {
+              "emissionFactor": 750,
+              "unit": "kgCO2e/tonne lime"
+            }
+          },
+          "Ammonia Production": {
+            "tonne ammonia": {
+              "emissionFactor": 1600,
+              "unit": "kgCO2e/tonne ammonia"
+            }
+          },
+          "Nitric Acid Production": {
+            "tonne product": {
+              "emissionFactor": 2086,
+              "unit": "kgCO2e/tonne product"
+            }
+          }
+        }
+      }
+    }
+  }
+}
